@@ -1,0 +1,14 @@
+-Definizione di OGGETTO: è una collezione di dati di diverso tipo;
+-Definizione di GIOCO MEMORY GAME Il codice si divide in due parti la parte HTML e una parte in Java nella parte dell'HTML abbiamo la struttura della pagina (titolo, grandezze, il punteggio, il tavolo da gioco), nella parte dell'Java script abbiamo il codice per far funzionare il gioco.
+-Definizione di VARIABILE: è una tripla nome-valore-tipo  ‘’un contenitore’’ e si può definire fisicamente come la cella di memoria
+ -Definizione di ARRAY: è una sequenza di oggetti dello stesso tipo;
+
+
+
+Inizialmente abbiamo creato una costante chiamata carteArray, all’interno dichiariamo le carte digitando il nome e l'immagine, lo abbiamo ripetuto 2 volte per le due coppie per ogni immagine,
+ in seguito che si crea il tavolo da gioco, la funzione: document.querySelector; significa che stiamo selezionando il tavolo da gioco,
+ successivamente vengono distribuite le carte sul tavolo da gioco e ogni  carta viene identificata con il numero della posizione; 
+successivamente con la funzione add eventLister si associa un evento al nome scopri carta; poi abbiamo attribuito alle carte una ‘’retro faccia’’ in modo tale che apparissero girate, e solo dopo averle cliccato una carta si sarebbe ‘’girata’’ cambiando sfondo. 
+una volta cliccate due carte richiamo la funzione «controllaCarte».
+ Se le carte coincidono devo far apparire un messaggio con scritto: «bravo +1»; per fare questo abbiamo utilizzato un If;
+ poi  se le carte sono uguali devo esser rimosse dal tavolo, ma invece che cancellarle abbiamo solo messo un’immagine bianca al loro posto. Infine in entrambi i casi svuotiamo l'array delle carte scelte per il nuovo turno.
